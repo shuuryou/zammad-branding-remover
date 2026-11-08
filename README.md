@@ -28,7 +28,7 @@ So it's legal. But is it right?
 
 You have to answer that yourself.
 
-If feel bad for the Zammad project, give them money. They really like money.
+If you feel bad for the Zammad project, give them money. They really like money.
 
 In my own experience, the way Zammad interacts with the community left me less inclined to keep advertising for them. On the community forum, reports from self-hosters mostly get ignored or get a short reply from a guy called MrGeneration whose main contribution seems to be telling people to fuck off.
 
@@ -44,7 +44,7 @@ This script is just a tool. If you don't like it, don't use it. If it gets too p
 | Logos | Every stand-alone logo SVG, and the logo symbols in the icon sprite, are regenerated from `data/logo-wordmark.svg` |
 | Raster icons | `favicon.ico`, `apple-touch-icon.png` and the PWA `app-icon-*.png` are rendered from your logo |
 | Error pages | The artwork in `public/assets/error/*.svg` is replaced by a generic "Error NNN" card with your logo; the "Phoenix" sentence on the 404 pages is reworded. Zammad's own error-page HTML is kept, so tracebacks and updates still work |
-| Misc illustrations | Zammad-coloured illustrations (such as the BETA UI dialog banner) are replaced by your logo on a white card |
+| Misc illustrations | Zammad illustrations (such as the BETA UI dialog banner) are replaced by your logo on a white card |
 
 ## What does not get changed
 
