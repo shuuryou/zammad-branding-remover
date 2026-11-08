@@ -1,0 +1,3 @@
+class HelloBanner
+  constructor: ->
+    return
