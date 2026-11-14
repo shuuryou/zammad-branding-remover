@@ -200,6 +200,9 @@ log "Recompiling assets (log: $BK/precompile.log)..."
 if [[ -f $ZAMMAD_ROOT/node_modules/vite/bin/vite.js ]]; then
     export VITE_RUBY_SKIP_ASSETS_PRECOMPILE_INSTALL=true
 fi
+
+rm -f "$ZAMMAD_ROOT/tmp/cache/vite/last-build-production.json"
+
 zammad run rake assets:precompile 2>&1 | tee "$BK/precompile.log"
 compgen -G "$ZAMMAD_ROOT/public/assets/application-*.js" > /dev/null \
     || { echo "precompile produced no application-*.js" >&2; false; }
